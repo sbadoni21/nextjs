@@ -50,7 +50,7 @@ const BestSellingProducts = () => {
           );
         })}
       </div>
-      <img src={img5} alt="" className="h-[560px] w-full pt-32"/>
+      <img src={img5.src} alt="" className="h-[560px] w-full mt-32 shadow-2xl"/>
     </div>
   );
 };

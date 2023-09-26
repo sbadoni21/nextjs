@@ -3,7 +3,7 @@ import React from "react";
 
 const NewArrivals = () => {
   return (
-    <div className="pl-32 pr-32 pb-12">
+    <div className="pl-32 pr-32 pb-12 pt-4">
       <div className="flex justify-start items-center gap-8">
         <div className="w-2 h-5 bg-red-600 rounded-sm"></div>
         <div className=" text-red-600">Featured</div>

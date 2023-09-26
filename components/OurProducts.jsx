@@ -2,11 +2,11 @@
 import React from 'react'
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsCart } from "react-icons/bs";
-import { products } from '@/contents';
+import { products } from '../contents/index';
 
 const OurProducts = () => {
   return (
-    <div className="h-96 pl-32 pr-32 pt-16 border-b-2 pb-4 flex-col">
+    <div className="h-96 pl-32 pr-32 pt-16 pb-16 border-b-2 flex-col">
     <div className="flex justify-start items-center gap-4">
       <div className="w-2 h-5 bg-red-600 rounded-sm"></div>
       <div className=" text-red-600">Our Products</div>

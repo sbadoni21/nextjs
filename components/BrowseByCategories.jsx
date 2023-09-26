@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { iconsforbrowsecontent } from '@/contents/index.jsx'
+import { iconsforbrowsecontent } from '@/contents/index.js'
 
 const BrowseByCategories = () => {
   return (

@@ -1,8 +1,8 @@
 "use client"
 
 import React from 'react';
-import { sections } from "../contents/index.jsx";
-import { swiperimages } from '../contents/index.jsx';
+import { sections } from "../contents/index.js";
+import { swiperimages } from '../contents/index.js';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

@@ -1,15 +1,15 @@
 "use client"
-import { img1 } from "../images/1.jpg"
+import { img1 } from '../images'
 import React from 'react'
 import {FcGoogle} from "react-icons/fc"
 
 const page = () => {
   return (
     <>
-    <div className='flex flex-row  pr- '>
-        <img src={img1} alt="image" className='w-2/3 h-[660px]' />
+    <div className='flex flex-row gap-24 pr-32 pt-20 pb-20 items-center '>
+        <img src={img1.src} alt="image" className='w-[620px] h-[560px]' />
         <div>
-            <div className='flex flex-col pt-60 gap-7'>
+            <div className='flex flex-col gap-7'>
                 <div className="text-4xl font-bold leading-6">Create an account</div>
                 <div>Enter your information below</div>
                 <input type="text" placeholder="Name"  className="border-b-2" />
