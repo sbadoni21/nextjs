@@ -44,7 +44,7 @@ const Footer = () => {
         <div className='flex flex-col  gap-4'>
             <p className='text-2xl'>Download App</p>
             <p>Save $3 with (App New Users Only)</p>
-            <div className="flex flex-row justify-evenly md:justify-around text-lg  ">
+            <div className="flex flex-row justify-around md:justify-around text-lg  ">
                 <BiLogoFacebookSquare className="cursor-pointer" />
                 <FaXTwitter className="cursor-pointer" />
                 <AiOutlineYoutube className="cursor-pointer" />
